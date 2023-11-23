@@ -15,7 +15,7 @@ function App({ totalPoints }) {
       0
     );
     const clampedValue = Math.min(value, maxAttribute, availablePoints);
-    console.log(clampedValue, availablePoints, value);
+   // console.log(clampedValue, availablePoints, value);
     setAttribute(clampedValue);
   };
 
